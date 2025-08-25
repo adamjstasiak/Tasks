@@ -9,6 +9,8 @@ from typing import Dict,Any,List
 from google import genai
 from google.genai import types
 from google.genai.types import HttpOptions 
+load_dotenv() 
+client = genai.Client()
 
 client = genai.Client()
 
